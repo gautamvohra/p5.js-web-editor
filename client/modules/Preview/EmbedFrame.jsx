@@ -24,6 +24,7 @@ let objectPaths = {};
 const Frame = styled.iframe`
   min-height: 100%;
   min-width: 100%;
+  background-color: white;
   position: absolute;
   border-width: 0;
   ${({ fullView }) =>
